@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-16T13:55:25 IST" name="Default suite" finished-at="2024-06-16T13:55:29 IST" duration-ms="4012">
+    <groups>
+    </groups>
+    <test started-at="2024-06-16T13:55:25 IST" name="Default test" finished-at="2024-06-16T13:55:29 IST" duration-ms="4012">
+      <class name="com.saucedemo.testcases.TestLoginPage">
+        <test-method is-config="true" signature="BaseClass1()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:19 IST" name="BaseClass1" finished-at="2024-06-16T13:55:25 IST" duration-ms="6230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass1 -->
+        <test-method signature="TestVerifyLogin()[pri:1, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:25 IST" name="TestVerifyLogin" finished-at="2024-06-16T13:55:26 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVerifyLogin -->
+        <test-method signature="TestClickProducts(java.lang.Integer)[pri:2, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:26 IST" name="TestClickProducts" data-provider="dpData" finished-at="2024-06-16T13:55:26 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.TestVerifyLogin" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClickProducts -->
+        <test-method signature="TestClickProducts(java.lang.Integer)[pri:2, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:26 IST" name="TestClickProducts" data-provider="dpData" finished-at="2024-06-16T13:55:26 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.TestVerifyLogin" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClickProducts -->
+        <test-method signature="TestClickProducts(java.lang.Integer)[pri:2, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:26 IST" name="TestClickProducts" data-provider="dpData" finished-at="2024-06-16T13:55:26 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.TestVerifyLogin" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClickProducts -->
+        <test-method signature="TestClickCartButton()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:26 IST" name="TestClickCartButton" finished-at="2024-06-16T13:55:26 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.TestClickProducts" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClickCartButton -->
+        <test-method signature="TestClickCheckOutButton()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:26 IST" name="TestClickCheckOutButton" finished-at="2024-06-16T13:55:26 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.TestClickCartButton" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClickCheckOutButton -->
+        <test-method signature="GenerateRandomUser()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:26 IST" name="GenerateRandomUser" finished-at="2024-06-16T13:55:28 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.TestClickCheckOutButton" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateRandomUser -->
+        <test-method signature="ClickOnFinishButton()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:28 IST" name="ClickOnFinishButton" finished-at="2024-06-16T13:55:29 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.GenerateRandomUser" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnFinishButton -->
+        <test-method signature="HompPage()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:29 IST" name="HompPage" finished-at="2024-06-16T13:55:29 IST" depends-on-methods="com.saucedemo.testcases.TestLoginPage.ClickOnFinishButton" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HompPage -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.saucedemo.testcases.TestLoginPage@3e27ba32]" started-at="2024-06-16T13:55:29 IST" name="generateReport" finished-at="2024-06-16T13:55:35 IST" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.saucedemo.testcases.TestLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
